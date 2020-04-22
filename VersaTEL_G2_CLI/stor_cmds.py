@@ -60,14 +60,14 @@ class Action():
             return True
         else:
             print('FAIL')
-            Action.linstor_delete_rd(res)
+            Action.linstor_delete_rd(res)###
             return result
 
     #创建resource 自动
     @staticmethod
     def create_res_auto(res,size,num):
         cmd = 'linstor r c %s --auto-place %d' % (res, num)
-        if Action.linstor_create_rd(res) is True and Action.linstor_create_vd(res,size) is True:
+        if Action.linstor_create_rd(res) is True and Action.linstor_create_vd(res,size) is True:###
             result = execute_cmd(cmd)
             if result == True:
                 print('SUCCESS')
@@ -80,7 +80,7 @@ class Action():
         # 创建resource 手动
     @staticmethod
     def create_res_manual(res, size, node, stp):
-        flag = OrderedDict()
+        flag = OrderedDict()###
 
         def print_fail_node():
             if len(flag.keys()):
