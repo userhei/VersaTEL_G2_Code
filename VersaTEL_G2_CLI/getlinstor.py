@@ -1,6 +1,7 @@
 # coding:utf-8
 import re
 
+
 class GetLinstor():
     def __init__(self,table_data):
         self.tale = table_data

@@ -3,6 +3,7 @@ import re
 import subprocess
 import time
 
+
 """
 @author: Zane
 @note: VersaTEL-iSCSI获取crm信息

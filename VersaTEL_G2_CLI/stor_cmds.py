@@ -3,8 +3,6 @@ import subprocess
 import regex as reg
 from collections import OrderedDict
 
-
-
 def execute_cmd(cmd):
     action = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     result = action.stdout.read()

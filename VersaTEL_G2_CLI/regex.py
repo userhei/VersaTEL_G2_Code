@@ -1,6 +1,7 @@
 #conding:utf-8
 import re
 
+
 #for diskgroup
 def judge_name(name):
     re_dg = re.compile('^[a-zA-Z][a-zA-Z0-9_-]*$')

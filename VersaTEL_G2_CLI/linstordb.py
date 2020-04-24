@@ -11,8 +11,6 @@ def nowtime():
     time = datetime.datetime.now()
     return time
 
-
-
 class LINSTORDB():
     #LINSTOR表
     crt_sptb_sql = '''

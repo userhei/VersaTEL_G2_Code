@@ -4,7 +4,6 @@
 import sqlite3
 import VersaTELSocket as vst
 
-
 class LINSTORDB(object):
 
     def __init__(self):

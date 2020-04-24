@@ -1,5 +1,6 @@
 # coding:utf-8
 
+
 from flask import views
 from versatelG2.Interaction import interaction_blue
 from versatelG2.Interaction import model

@@ -5,6 +5,7 @@ Created on 2020/3/2
 @note: data
 '''
 
+
 from flask import Flask, jsonify, render_template, request, make_response,views
 import VersaTELSocket as vst
 import json

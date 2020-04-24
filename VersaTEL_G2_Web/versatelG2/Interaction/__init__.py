@@ -1,5 +1,6 @@
 # coding:utf-8
 
+
 from flask import Flask,Blueprint
 
 interaction_blue = Blueprint("interaction_blue", __name__)

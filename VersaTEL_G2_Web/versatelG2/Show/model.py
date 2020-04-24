@@ -9,6 +9,7 @@ Created on 2020/3/2
 from flask import Flask, render_template, views
 
 
+
 class indexView(views.MethodView):
     def get(self):
         return render_template("index.html")

@@ -2,6 +2,7 @@
 from flask import views
 import VersaTELSocket as vst
 
+
 class sendmessageView(views.MethodView):
     def get(self):
         Host_create = ['Host_Name', 'Host_iqn']

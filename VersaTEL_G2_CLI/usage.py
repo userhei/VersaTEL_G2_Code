@@ -1,5 +1,6 @@
 #coding:utf-8
 
+
 #stor部分使用手册
 stor = '''
 stor {node(n)/resource(r)/storagepool(sp)/snap(sn)}'''

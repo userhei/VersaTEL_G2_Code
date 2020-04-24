@@ -1,6 +1,5 @@
 import json
 
-
 class JSON_OPERATION:
 
     def __init__(self):
